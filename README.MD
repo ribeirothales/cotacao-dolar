@@ -5,13 +5,13 @@ Este projeto é uma aplicação simples em Python para realizar operações de E
 
 ## Funcionalidades
 
-1. **Extract:**
+**Extract:**
    - O projeto faz uma requisição para a API do Banco Central para obter as cotações do dólar em um determinado intervalo de datas.
 
-2. **Transformation:** 
+**Transformation:** 
    - Após a extração dos dados, eles são processados e transformados. A transformação inclui a formatação da data e a arredondagem das cotações.
 
-3. **Load:**
+**Load:**
    - Os dados transformados são inseridos em um banco de dados PostgreSQL para armazenamento persistente.
 
 ## Tecnologias Utilizadas
@@ -122,10 +122,10 @@ Finalmente, os dados transformados são carregados no banco de dados PostgreSQL 
 - **Validação de Dados:** Melhorias na validação dos dados extraídos da API antes de carregá-los no banco de dados.
 - **Aprimoramento da Transformação:** Outras transformações podem ser aplicadas aos dados, como a agregação de informações ou a criação de relatórios.
 
-## Contribuições
+## Contato  
 
-Contribuições são bem-vindas! Se você deseja melhorar o projeto, faça um fork, crie uma branch, faça suas alterações e envie um pull request.
+<div>
+    <a href="https://www.linkedin.com/in/ribeirothales/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+    <a href="mailto:thales.o.ribeiro@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+</div>
 
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
